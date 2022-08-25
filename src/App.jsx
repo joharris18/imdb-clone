@@ -1,8 +1,12 @@
 import './App.css'
+import SearchMovies from "./SearchMovies"
 
 function App() {
   return (
-    <h1>Movie DB Search</h1>
+    <div className="container">
+        <h1 className="title">Movie DB Search</h1>
+        <SearchMovies/>
+    </div>
   )
 }
 
